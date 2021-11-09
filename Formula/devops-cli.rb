@@ -1,7 +1,13 @@
-class DevOpsCli < Formula
+class DevCli < Formula
     include Language::Python::Virtualenv
   
-    url "https://github.com/devops-hippie/devops-cli/archive/refs/tags/v0.1.0.tar.gz"
+    desc "The homebrew formula for DevOps Hippie's Dev CLI"
+    homepage "https://github.com/devops-hippie/devops-cli"
+    version "0.13.10"
+    url "git@github.com:devops-hippie/devops-cli.git",
+      using:    :git,
+      tag:      "0.1.0"
+  
   
     resource "six" do
       url "https://pypi.python.org/packages/source/s/six/six-1.9.0.tar.gz"
