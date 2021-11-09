@@ -1,4 +1,4 @@
-class DevCli < Formula
+class DevOpsCli < Formula
     include Language::Python::Virtualenv
   
     desc "The homebrew formula for DevOps Hippie's Dev CLI"
