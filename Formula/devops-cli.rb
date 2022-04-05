@@ -6,7 +6,7 @@ class DevopsCli < Formula
     version "0.13.10"
     url "git@github.com:devops-hippie/devops-cli.git",
       using:    :git,
-      tag:      "0.1.0"
+      revision: "0.1.0"
   
   
     resource "six" do
